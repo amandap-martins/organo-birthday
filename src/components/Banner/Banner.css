@@ -1,0 +1,15 @@
+.banner {
+  background-color: var(--principal-color);
+  text-align: center;
+}
+
+.banner img {
+  max-width: 100%;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .banner img {
+    max-width: 60%;
+  }
+}

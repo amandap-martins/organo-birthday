@@ -1,0 +1,85 @@
+.cardGuest {
+  width: 200px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.cardGuest .cardHeader {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.cardGuest .cardHeader img {
+  width: 90px;
+  border-radius: 50%;
+  position: relative;
+  bottom: -40px;
+}
+
+.cardGuest .cardText {
+  background-color: var(--white-color);
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.cardGuest .cardText h4 {
+  color: var(--secondary-color);
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.cardGuest .cardText h5 {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: var(--secondary-color);
+  padding: 0 16px;
+}
+
+.cardGuest .remove {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  cursor: pointer;
+  fill: var(--white-color);
+}
+
+@media screen and (min-width: 768px) {
+  .cardGuest {
+    width: 220px;
+    margin-bottom: 32px;
+  }
+  
+  
+  .cardGuest .cardHeader img {
+    width: 100px;
+  }
+  
+  .cardGuest .cardText h4 {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  
+  .cardGuest .cardText h5 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cardGuest {
+    width: 250px;
+    margin-bottom: 32px;
+  }
+  
+  
+  .cardGuest .cardHeader img {
+    width: 110px;
+  }
+
+  .cardGuest .remove:hover {
+    fill: var(--secondary-color);
+  }
+}

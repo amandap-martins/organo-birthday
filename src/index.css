@@ -1,0 +1,26 @@
+:root {
+  --principal-color: #E63946;
+  --secondary-color: #1D3557;
+  --sub-color: #F6F6F6;
+  --white-color: #FFF;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.buttonRemove {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 32px;
+}

@@ -1,0 +1,50 @@
+.textField {
+  margin: 20px 0;
+}
+
+.textField label {
+  display: flex;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.textField input {
+  background-color: var(--white-color);
+  box-sizing: border-box;
+  padding: 18px;
+  width: 100%;
+  font-size: 16px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .textField {
+    margin: 20px 0;
+  }
+  
+  .textField label {
+    font-size: 16px;
+  }
+  
+  .textField input {
+    padding: 20px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .textField {
+    margin: 24px 0;
+  }
+  
+  .textField label {
+    font-size: 18px;
+  }
+  
+  .textField input {
+    padding: 20px;
+    font-size: 18px;
+  }
+}

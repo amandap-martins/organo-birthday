@@ -1,0 +1,45 @@
+.footer {
+  background-color: var(--principal-color);
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--white-color);
+}
+
+.footer .logo {
+  width: 25%;
+  height: 25%;
+}
+
+.footer p {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 575px) {
+  
+  .footer .logo {
+    width: 15%;
+  }
+  
+  .footer p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 32px;
+  }
+  
+  .footer p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer .logo {
+    width: 10%;
+  }
+  
+}

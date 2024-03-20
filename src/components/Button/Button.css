@@ -1,0 +1,32 @@
+.button {
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 768px) {
+  .button {
+    margin: 24px 0;
+    padding: 18px;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    color: var(--principal-color);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .button {
+    margin: 24px 0;
+    padding: 20px;
+    font-size: 18px;
+  }
+}

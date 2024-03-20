@@ -1,0 +1,38 @@
+.selectField label {
+  display: flex;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.selectField select {
+  background-color: var(--white-color);
+  box-sizing: border-box;
+  padding: 18px;
+  width: 100%;
+  font-size: 16px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+  border: none;
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 768px) {
+  .selectField label {
+    font-size: 16px;
+  }
+  
+  .selectField select {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .selectField label {
+    font-size: 18px;
+  }
+  
+  .selectField select {
+    font-size: 18px;
+  }
+}
